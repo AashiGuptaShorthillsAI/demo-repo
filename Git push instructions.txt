@@ -1,0 +1,25 @@
+1. Download and Install git
+2. Open gitbash :c/programfiles/git
+3. Go in the dir where you have your files which you want to upload
+
+pwd - for current dir
+cd "path" to change the dir
+
+Run these commands in gitbash then
+4. git config --global user.name "HarshXGA"
+5. git config --global user.email "abcd@gmail.com"
+
+6. touch .gitignore (makes a file in current dir) #OPTIONAL
+	6.1 Write file or folder names in gitignore file which you dont want to push into your repository.
+	6.2 for a folder named myfolder.. write myfolder/ in .gitignore 
+
+7. git init (initiliases a empty git repo in your current dir)
+8. git add . (stages all your files except files in .gitignore)
+9. git commit -m "Initial Commit or a commit message" (It records or kind of saves a snapshot of your files)
+	9.1 git status (gives status of your process) #OPTIONAL
+
+10. git remote add origin <HTTPS or SSH Link of repo here>
+	10.1. git remote remove origin (to remove origin remote if need to reset)
+11. git push origin master
+#done
+ 
